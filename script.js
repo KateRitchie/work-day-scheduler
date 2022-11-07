@@ -34,18 +34,17 @@ $(document).ready(function () {
     localStorage.setItem(time, input);
   })
 
-  // TODO: Add code to get any user input that was saved in localStorage and set
-  // the values of the corresponding textarea elements. HINT: How can the id
-  // attribute of each time-block be used to do this?
+  //Code to get any user input that was saved in localStorage and set
+  //the values of the corresponding textarea elements.
 
-$("#9 .description").val(localStorage.getItem("9AM"))
-$("#10 .description").val(localStorage.getItem("10AM"))
-$("#11 .description").val(localStorage.getItem("11AM"))
-$("#12 .description").val(localStorage.getItem("12PM"))
-$("#13 .description").val(localStorage.getItem("1PM"))
-$("#14 .description").val(localStorage.getItem("2PM"))
-$("#15 .description").val(localStorage.getItem("3PM"))
-$("#16 .description").val(localStorage.getItem("4PM"))
-$("#17 .description").val(localStorage.getItem("5PM"))
+  $("#9 .description").val(localStorage.getItem("9AM"))
+  $("#10 .description").val(localStorage.getItem("10AM"))
+  $("#11 .description").val(localStorage.getItem("11AM"))
+  $("#12 .description").val(localStorage.getItem("12PM"))
+  $("#13 .description").val(localStorage.getItem("1PM"))
+  $("#14 .description").val(localStorage.getItem("2PM"))
+  $("#15 .description").val(localStorage.getItem("3PM"))
+  $("#16 .description").val(localStorage.getItem("4PM"))
+  $("#17 .description").val(localStorage.getItem("5PM"))
 
 });
